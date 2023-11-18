@@ -1,0 +1,78 @@
+/* Color Theme Swatches in Hex */
+.Dog-sitting-concept-with-happy-active-dog-holding-pet-leash-in-mouth-ready-to-go-for-walk-1-hex { color: #1243A6; }
+.Dog-sitting-concept-with-happy-active-dog-holding-pet-leash-in-mouth-ready-to-go-for-walk-2-hex { color: #022859; }
+.Dog-sitting-concept-with-happy-active-dog-holding-pet-leash-in-mouth-ready-to-go-for-walk-3-hex { color: #F29F05; }
+.Dog-sitting-concept-with-happy-active-dog-holding-pet-leash-in-mouth-ready-to-go-for-walk-4-hex { color: #F28705; }
+.Dog-sitting-concept-with-happy-active-dog-holding-pet-leash-in-mouth-ready-to-go-for-walk-5-hex { color: #734A27; }
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #F29F05;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #1243A6;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #1243A6;
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Vina Sans', cursive;
+    font-size: 2em;
+}
+
+#sobre, #produtos, #contato {
+    background-color: #fff;
+}
+
+#destaque, #newsletter {
+    background-color: #F29F05;
+}
+
+.text-colored {
+    color: #734A27;
+}
+
+.text-colored-1 {
+    color: #fff;
+}
+
+.nav-produtos .nav-link.active,
+#newsletter button {
+    background-color: #1243A6;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #1243A6;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}

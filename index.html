@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Friendly</title>
+    <link rel="shortcut icon" href="images/icone/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <a class="navbar-brand m-0 section-title" href="#">
+                PET
+                <img src="images/icone/icon.png" alt="Logo" width="30" height="30" class="d-inline-block align-baseline">
+                Friendly
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#destaque" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            destaque
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-box2-heart me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-telephone me-1"></i>
+                            Contatos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="container-fluid p-0">
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide1.jpg" alt="Foto Promoção">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide2.jpg" alt="Foto 3 Cachorros">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="3000">
+                            <img class="w-100" src="images/slides/slide3.jpg" alt="Cachoro Tomando Banho">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/petshop.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do petshop">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Pet Friendly</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, id dolorum harum quo consequatur perferendis natus repudiandae optio ipsa voluptates enim ipsam corrupti labore iusto explicabo? Voluptas recusandae quas cumque.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta accusantium officiis numquam quos iure velit natus alias ut reprehenderit dolor! Eius autem molestias fugit quisquam ducimus explicabo aliquid provident asperiores?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="destaque" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Em <span class="text-colored">destaque</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/destaque/royal-canin.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored-1 fs-4">
+                            ROYAL CANIN GIANT JUNIOR<br><span class="text-colored">74,70€</span>
+                        </h3>
+                        <p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/destaque/trixie-saco-viktoria.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored-1 fs-4">
+                            TRIXIE SACO VIKTORIA<br><span class="text-colored">25,36€</span>
+                        </h3>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/destaque/quibropets-cama-lisa.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-center text-colored-1 fs-4">
+                            QUIBROPETS CAMA LISA<br><span class="text-colored">19,90€</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-2 p-0">
+                        <aside>
+                            <nav class="nav nav-pills flex-md-column justify-content-between nav-produtos">
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#caes" class="fw-bold text-start nav-link text-colored active">Cães</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#gatos" class="fw-bold text-start nav-link text-colored">Gatos</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#roedores" class="fw-bold text-start nav-link text-colored">Roedores</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#aves" class="fw-bold text-start nav-link text-colored">Aves</button>
+                                <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="fw-bold text-start nav-link text-colored">Outros</button>
+                            </nav>
+                        </aside>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="caes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/caes/petfield-premium-dog.jpg" alt="petfield premium dog">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Petfield Premium Dog Light & Senior</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/caes/tapete-resguardo-absorvente.jpg" alt="tapete absorvente">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Tapete Resguardo Absorvente</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/caes/trixie-comedouro-patinhas.jpg" alt="comedouro">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Comedouro Patinhas</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/caes/trixie-saco-viktoria.jpg" alt="trixie saco">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Saco Viktoria</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="gatos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/gatos/catfield-silica-gel.jpg" alt="catfield silica">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Catfield Sílica Gel</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/gatos/golden-white-aglomerante.jpg" alt="aglomerante">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Golden White Aglomerante</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/gatos/trixie-cinto-de-seguranca.jpg" alt="cinto de segurança">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Cinto de Segurança</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/gatos/trixie-pente-dupla-face.jpg" alt="pente dupla face">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Pente Dupla Face</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="roedores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/roedores/imac-bola-para-hamsters.jpg" alt="bola para hamsters">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Imac Bola Para Hamsters</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/roedores/trixie-esfera-armilar-p-verduras.jpg" alt="esfera para verduras">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Esfera Para Verduras</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/roedores/vermizoo.jpg" alt="vermizoo">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Vermizoo</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/roedores/versele-laga-cubetto-wood-madeira-prensada.jpg" alt="madeira prensada">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Versele-Laga Cubetto Wood</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aves">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/aves/psittacus-formula-manutencao.jpg" alt="psittacus formula">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Psittacus Fôrmula</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/aves/tabernil-ad3e.jpg" alt="tabernil">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Tabernil AD3E</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/aves/tabernil-insecticida-spray.jpg" alt="insecticida spray">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Tabernil Insecticida Spray</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/aves/trixie-brinquedo-colorido.jpg" alt="trixie brinquedo">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Trixie Brinquedo Colorido de Madeira</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outros">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/outros/omnimatrix-septifree-spray.jpg" alt="septifree spray">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Omnimatrix Septifree Spray</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/outros/orniex-tartuguex-shrimps.jpg" alt="tartuguex shrimps">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Orniex Tartuguex Shrimps</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/outros/oropharma-spray-desinfetante.jpg" alt="spray desinfetante">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Oropharma spray desinfetante</h5>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/outros/versele-laga-pet-pig-muesli.jpg" alt="pet pig muesli">
+                                        <h5 class="text-center text-colored fw-bold mt-2">Versele-Laga Pet Pig Muesli</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <section id="newsletter" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-lg-flex justify-content-center align-items-center">
+                        <h2 class="section-title text-center">Assine nossa <span class="text-colored">Newsletter</span></h2>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste Exemplo nº 145, Ourém - Portugal
+                        </p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-telephone-fill"></i>
+                            Telefone
+                        </h3>
+                        <p>
+                            +351 987654321
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col12 text-center">
+                        <h3 class="fs-6">© 2023 Pet Friendly. Todos os direitos reservados.</h3>
+                        <h3 class="fs-6">Designed By David Santos</h3>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
